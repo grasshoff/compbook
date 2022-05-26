@@ -1213,7 +1213,7 @@ const PDFViewerApplication = {
         scrollTop: "0",
         rotation: null,
         sidebarView: SidebarView.UNKNOWN,
-        scrollMode: ScrollMode.UNKNOWN,
+        scrollMode: ScrollMode.PAGE,
         spreadMode: SpreadMode.UNKNOWN,
       })
       .catch(() => {
